@@ -5,10 +5,10 @@ namespace app\db;
 class PgsqlDb{
     private $conn=null;
     public function connect(){
-        $host        = "host = ec2-54-225-200-15.compute-1.amazonaws.com";
+        $host        = "host = ec2-54-225-96-191.compute-1.amazonaws.com";
         $port        = "port = 5432";
-        $dbname      = "dbname = d4hp0k6fjs4fo6";
-        $credentials = "user = mbznicikditsid password=a2522df0b17934987f4830f1664e1524cda020fab91a17b4f005e20215b1170c";
+        $dbname      = "dbname = d98701brgv1p5f";
+        $credentials = "user = knuxhlpzvrkxvv password=56ccccfb417605ca9252f73efcee49b122fbc66fe500f7412c1c9e54d2495212";
     
         $this->conn = pg_connect( "$host $port $dbname $credentials"  );
         
